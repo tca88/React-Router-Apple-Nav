@@ -17,7 +17,8 @@ class App extends Component {
     let newData = DummyData.map(data => {
       return { path: data.name.toLowerCase(), ...data };
     });
-    console.log(newData);
+    // console.log(newData);
+    // console.log(DummyData);
 
     this.setState({
       navList: newData
